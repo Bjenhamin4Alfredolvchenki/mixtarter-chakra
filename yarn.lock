@@ -1077,13 +1077,13 @@
     node-fetch "^2.6.1"
     source-map-support "^0.5.21"
 
-"@remix-run/react@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.2.2.tgz#5f58f5e55b99cd690db8cc533783886ef03eb065"
-  integrity sha512-A+g/Y4QnT4ldZovjbP4sNJ29ZZt+oDP152pN8oYOHoQuqqrlc+CnLSMKCN1D+EljBfJx66553TwMIS5kCwdNzg==
+"@remix-run/react@^1.3.1":
+  version "1.3.1"
+  resolved "https://npm.remix.run/download/@remix-run/react/1.3.1/e26122b1e4b3b6acbffcbb95e8b779ce8a6ac06e65fc0e943e1a8089d17fe1b7#471b28e319ac2739a7c1d1ed232b90f4c0fb428d"
+  integrity sha512-eL7rlH0NRhviQTBaj2PtDeZ13J0mr6dkfrW+RR7fp9lcjeJQSmeX+r0GNHADrPaQt3qzloDAEd3luBXNpO0ocw==
   dependencies:
-    history "^5.2.0"
-    react-router-dom "^6.2.1"
+    history "^5.3.0"
+    react-router-dom "^6.2.2"
 
 "@remix-run/serve@^1.2.2":
   version "1.2.2"
@@ -3633,6 +3633,13 @@ history@^5.2.0:
   dependencies:
     "@babel/runtime" "^7.7.6"
 
+history@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/history/-/history-5.3.0.tgz#1548abaa245ba47992f063a0783db91ef201c73b"
+  integrity sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==
+  dependencies:
+    "@babel/runtime" "^7.7.6"
+
 hoist-non-react-statics@^3.3.1:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
@@ -5498,10 +5505,25 @@ react-router-dom@^6.2.1:
     history "^5.2.0"
     react-router "6.2.1"
 
+react-router-dom@^6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.2.2.tgz#f1a2c88365593c76b9612ae80154a13fcb72e442"
+  integrity sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==
+  dependencies:
+    history "^5.2.0"
+    react-router "6.2.2"
+
 react-router@6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
   integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
+  dependencies:
+    history "^5.2.0"
+
+react-router@6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.2.tgz#495e683a0c04461eeb3d705fe445d6cf42f0c249"
+  integrity sha512-/MbxyLzd7Q7amp4gDOGaYvXwhEojkJD5BtExkuKmj39VEE0m3l/zipf6h2WIB2jyAO0lI6NGETh4RDcktRm4AQ==
   dependencies:
     history "^5.2.0"
 
