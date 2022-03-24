@@ -1077,6 +1077,23 @@
     node-fetch "^2.6.1"
     source-map-support "^0.5.21"
 
+"@remix-run/node@1.3.3":
+  version "1.3.3"
+  resolved "https://npm.remix.run/download/@remix-run/node/1.3.3/e76cedfa9614488632bf0d5594c7c782be4f92660f4069ebebf97fce946694ff#fa6c940e98e78832bf39540f1539cfaa66e9dcd5"
+  integrity sha512-ClhS2vO0M/v4hA2PWTcMkLv5BWQL8PYq78PlEKr7Cg/K62BAxFO9rEEmpliY+qH+obm1Ba/syiN1JUWbsJ/MyQ==
+  dependencies:
+    "@remix-run/server-runtime" "1.3.3"
+    "@types/busboy" "^0.3.1"
+    "@types/node-fetch" "^2.5.12"
+    "@web-std/file" "^3.0.0"
+    abort-controller "^3.0.0"
+    blob-stream "^0.1.3"
+    busboy "^0.3.1"
+    cookie-signature "^1.1.0"
+    form-data "^4.0.0"
+    node-fetch "^2.6.1"
+    source-map-support "^0.5.21"
+
 "@remix-run/react@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.2.2.tgz#5f58f5e55b99cd690db8cc533783886ef03eb065"
@@ -1107,13 +1124,24 @@
     set-cookie-parser "^2.4.8"
     source-map "^0.7.3"
 
-"@remix-run/vercel@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/vercel/-/vercel-1.2.2.tgz#5a57b4b8293b196c7a19ff8f037a92908a05befb"
-  integrity sha512-68Gx/bvC5OXr+VmH/ZYvHZvGkeIHbr3unxQuT8SDGZouYF3kq7OAOhqy0Vm4Ow2JAj050nvbDsZwFLKz1vhyBw==
+"@remix-run/server-runtime@1.3.3":
+  version "1.3.3"
+  resolved "https://npm.remix.run/download/@remix-run/server-runtime/1.3.3/7c4ffa8417dafa4109345b3dbe62efd49f92cf84420f8139c725da4b3cbeaed7#c17c68e6b9c57178b0fc97f10e37df99f01eeedb"
+  integrity sha512-gtwcVSafATBxz1o8cy9s2QLXT/CpVUoC4cbSagaLdrO7QslCti8gv0p71XqUdmkn5zkU0MhEC3lOGX3QlBWN8w==
   dependencies:
-    "@remix-run/node" "1.2.2"
-    "@remix-run/server-runtime" "1.2.2"
+    "@types/cookie" "^0.4.0"
+    cookie "^0.4.1"
+    jsesc "^3.0.1"
+    react-router-dom "^6.2.2"
+    set-cookie-parser "^2.4.8"
+    source-map "^0.7.3"
+
+"@remix-run/vercel@^1.3.3":
+  version "1.3.3"
+  resolved "https://npm.remix.run/download/@remix-run/vercel/1.3.3/6fc607167ba68eef1abc41d90f74afdbcab324e32d55f581d9bf088c7a0aa1f4#ead4a46024514a1940501493af78a494fd514594"
+  integrity sha512-bcL0bpTmpisGIgqPRYPBHxIqTkBDrfb5hffT2if9t5CYKvjn3a2OKAZSY+eGpPMlexBt8GgpiqFVSDOAeWs7RA==
+  dependencies:
+    "@remix-run/node" "1.3.3"
 
 "@rollup/pluginutils@^4.0.0":
   version "4.1.1"
@@ -5498,10 +5526,25 @@ react-router-dom@^6.2.1:
     history "^5.2.0"
     react-router "6.2.1"
 
+react-router-dom@^6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.2.2.tgz#f1a2c88365593c76b9612ae80154a13fcb72e442"
+  integrity sha512-AtYEsAST7bDD4dLSQHDnk/qxWLJdad5t1HFa1qJyUrCeGgEuCSw0VB/27ARbF9Fi/W5598ujvJOm3ujUCVzuYQ==
+  dependencies:
+    history "^5.2.0"
+    react-router "6.2.2"
+
 react-router@6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
   integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
+  dependencies:
+    history "^5.2.0"
+
+react-router@6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.2.tgz#495e683a0c04461eeb3d705fe445d6cf42f0c249"
+  integrity sha512-/MbxyLzd7Q7amp4gDOGaYvXwhEojkJD5BtExkuKmj39VEE0m3l/zipf6h2WIB2jyAO0lI6NGETh4RDcktRm4AQ==
   dependencies:
     history "^5.2.0"
 
