@@ -1077,6 +1077,23 @@
     node-fetch "^2.6.1"
     source-map-support "^0.5.21"
 
+"@remix-run/node@1.3.4":
+  version "1.3.4"
+  resolved "https://npm.remix.run/download/@remix-run/node/1.3.4/589c2abc0ff59e2b972e5fd8a2f7af3618448439f7d8f13d22870e833f456dfe#0f026d9b43e3a83bd6e0263e87b91aa3261b53f0"
+  integrity sha512-zPE6S66xd+78SxE6NH53XaJho/o/3Ed94+/7Vn6qAw7sbA48NdUW5myvE+yw1JcOVVpvkzbdcr+RUwhAdNH1FA==
+  dependencies:
+    "@remix-run/server-runtime" "1.3.4"
+    "@types/busboy" "^0.3.1"
+    "@types/node-fetch" "^2.5.12"
+    "@web-std/file" "^3.0.0"
+    abort-controller "^3.0.0"
+    blob-stream "^0.1.3"
+    busboy "^0.3.1"
+    cookie-signature "^1.1.0"
+    form-data "^4.0.0"
+    node-fetch "^2.6.1"
+    source-map-support "^0.5.21"
+
 "@remix-run/react@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@remix-run/react/-/react-1.2.2.tgz#5f58f5e55b99cd690db8cc533783886ef03eb065"
@@ -1107,13 +1124,24 @@
     set-cookie-parser "^2.4.8"
     source-map "^0.7.3"
 
-"@remix-run/vercel@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/vercel/-/vercel-1.2.2.tgz#5a57b4b8293b196c7a19ff8f037a92908a05befb"
-  integrity sha512-68Gx/bvC5OXr+VmH/ZYvHZvGkeIHbr3unxQuT8SDGZouYF3kq7OAOhqy0Vm4Ow2JAj050nvbDsZwFLKz1vhyBw==
+"@remix-run/server-runtime@1.3.4":
+  version "1.3.4"
+  resolved "https://npm.remix.run/download/@remix-run/server-runtime/1.3.4/64f88c3d45aead68fcb6f4d9622c3adc791360deafd994d4585097903dcce3ea#cada7041fe2c0851abd96aeea9fa87aacc5865f5"
+  integrity sha512-RMkbegA4TsSiWK4JsvUI0dgI7e2LVL3HrosszLfJ1zPgftZ250s2ZZdvUKTn2etQpMGlrfxET5/caG7f7C5k1w==
   dependencies:
-    "@remix-run/node" "1.2.2"
-    "@remix-run/server-runtime" "1.2.2"
+    "@types/cookie" "^0.4.0"
+    cookie "^0.4.1"
+    jsesc "^3.0.1"
+    react-router-dom "^6.2.2"
+    set-cookie-parser "^2.4.8"
+    source-map "^0.7.3"
+
+"@remix-run/vercel@^1.3.4":
+  version "1.3.4"
+  resolved "https://npm.remix.run/download/@remix-run/vercel/1.3.4/175bea7a563b76c5023847e71cbf8ffbd922ef57be7afe28516cee8731fbc597#c86e000ee5321770e5b511c365970c1256c8134a"
+  integrity sha512-yTUgBvQtCmHot2WKBkr/jJPdulj0LjzgpNRo9BPjPiyS+/GwE4vpUpa+iL5I3rH1+lZFEal0zX8NmjGfqjXKZg==
+  dependencies:
+    "@remix-run/node" "1.3.4"
 
 "@rollup/pluginutils@^4.0.0":
   version "4.1.1"
@@ -5498,10 +5526,25 @@ react-router-dom@^6.2.1:
     history "^5.2.0"
     react-router "6.2.1"
 
+react-router-dom@^6.2.2:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.3.0.tgz#a0216da813454e521905b5fa55e0e5176123f43d"
+  integrity sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==
+  dependencies:
+    history "^5.2.0"
+    react-router "6.3.0"
+
 react-router@6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.2.1.tgz#be2a97a6006ce1d9123c28934e604faef51448a3"
   integrity sha512-2fG0udBtxou9lXtK97eJeET2ki5//UWfQSl1rlJ7quwe6jrktK9FCCc8dQb5QY6jAv3jua8bBQRhhDOM/kVRsg==
+  dependencies:
+    history "^5.2.0"
+
+react-router@6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.3.0.tgz#3970cc64b4cb4eae0c1ea5203a80334fdd175557"
+  integrity sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==
   dependencies:
     history "^5.2.0"
 
